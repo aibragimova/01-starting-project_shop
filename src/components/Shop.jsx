@@ -4,7 +4,7 @@ import Product from './Product.jsx';
 export default function Shop({ onAddItemToCart }) {
   return (
     <section id="shop">
-      <h2>Elegant Clothing For Everyone</h2>
+      <h2>Развивающие игры для детей</h2>
 
       <ul id="products">
         {DUMMY_PRODUCTS.map((product) => (
